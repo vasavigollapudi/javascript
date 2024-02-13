@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT IN JS</title>
+</head>
+<body>
+    <H1>OBJECT IN JS</H1>
+    <script>
+       //object                 //an object is an unordered collection of key-value pairs.each key-value pair is called property.the key of a property can be a string.and the value of a property can be a value.by using dot notation(.) or array notation([]) we can print the particular value in that object
+        let bestie={
+            name:'abhi',
+            id:2005,
+            college:'acoe'
+        } 
+        console.log(bestie)
+        console.log(bestie.id)  // if you want to print the data in the object we can use dot notation(.) along with object name
+        console.log(bestie['name'])   // to print the data in object here we use array notation[].in array notation the data must be in single codes.
+        bestie.name="balli"
+        console.log(bestie.name)
+        bestie.age=17
+        console.log(bestie)
+        delete bestie.age
+        console.log(bestie)
+        console.log('name'in bestie)
+        console.log('age'in bestie)
+</script>
+</body>
+</html>
